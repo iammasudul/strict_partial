@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background: #f9f9f9;
+
+}
+.header-wrapper{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+.logo{
+  width: 20%;
+
+}
+nav{
+  width: 35%;
+
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li{
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #2d3950;
+  text-transform: uppercase;
+}
+.banner{
+  background-image: url(../images/Banner.png);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.banner-content{
+  width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.banner-content h1{
+  color: white;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+.straight-line{
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: #15a4fa;
+}
+.banner-content p{
+  color: white;
+  margin: 15px;
+  font-size: 18px;
+}
+.banner-content button{
+  background: transparent;
+  border: none;
+  border: 1px solid #15a4fa;
+  color: white;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 30px;
+  cursor: pointer;
+  transition: .6s all ease-in-out;
+}
+.banner-content button:focus{
+  outline: none;
+}
+.banner-content button:hover{
+  color: #15a4fa;
+  background-color: white;
+}
+.down-arrow-icon{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -75%);
+  animation: animation-cursor 1s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes animation-cursor {
+  0%{
+    top: 75%;
+  }
+  100%{
+    top: 78%;
+  }
+}
+.simple-and-pure-design{
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.simple-and-pure-design h2{
+  margin-top: 50px;
+  font-size: 32px;
+  font-weight: 500;
+}
+.simple-and-pure-design p{
+  margin-top: 15px;
+  font-size: 18px;
+  margin-bottom: 35px;
+  font-weight: 400;
+  color: gray;
+}
